@@ -546,7 +546,7 @@ i{
 .ul{
     list-style-type: none;
     margin-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .foot2{
@@ -660,6 +660,7 @@ i{
 
    .ul{
     margin-left: -1em;
+    padding-right: 2em;
    }
    
 }
