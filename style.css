@@ -1,0 +1,674 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(47,11,4);
+    background: radial-gradient(circle, rgba(47,11,4,1) 42%, rgba(54,54,54,1) 100%);
+    margin-bottom: 1em;
+}
+
+.nav{
+     backdrop-filter: blur(30px);
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 500;
+}
+
+.logoimg{
+    height: 40px;
+    width: 100px;
+}
+
+.sec1{
+    min-height: 10vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.861) 0%, rgba(26, 26, 26, 0.358) 54%, rgba(236, 244, 245, 0.162) 100%),
+    url(https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7em 2em 13em 3em;
+    color: white;
+    margin-top: 3em;
+}
+
+.span01{
+  width: 20px;  
+  background-color: #270b07;
+   border-radius: 7px;
+   padding: 5px;
+    
+}
+
+.head{
+  line-height: 1.5em;
+}
+
+.para1{
+    color: antiquewhite;
+}
+
+.sec-2{
+    min-height: 10vh;
+    width: 100%;
+    padding: 1em;
+    background-color: #161616 !important;
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2-d{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card-d{
+  
+    display: flex;
+    justify-content: center;
+    gap: 2em ;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+}
+
+.card1{
+    max-width: 200px;
+    min-height: 180px;
+    background-color: rgba(239, 238, 238, 0.073);
+    border-radius: 9px;
+    padding: 0.7em;
+    margin-top: 1em;
+}
+
+.up{
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+   
+}
+
+.upsa{
+     background-color: #270b07;
+    border-radius: 4px;
+    padding: 0.3em;
+}
+
+.up:hover{
+    color: #e26d06;
+    border-bottom: 2px solid #e26d06;
+    border-left: 2px solid #e26d06;
+}
+
+.para2{
+    font-size: 14px;
+}
+
+.btn1{
+   background-color: #270b07;
+   width: 160px;
+   margin-top: 1em;
+}
+
+
+
+.img1{
+    height: 380px;
+    width: 500px;
+    border-radius: 7px;
+    margin-top: 1em;
+}
+
+.sec-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    background-color: #161616;
+    margin-top: 1em;
+    color: white;
+    width: 100%;
+    
+}
+
+.sec3-d1{
+    width: 40%;
+    padding-bottom: 7em;
+    padding: 2em;
+}
+
+.btn2{
+  width: 140px;  
+}
+
+.bg-img{
+    height: 400px;
+    width: 50%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.936) 0%, rgba(22, 19, 19, 0.838) 54%, rgba(236, 244, 245, 0.162) 100%) ,
+     url(https://images.squarespace-cdn.com/content/v1/6386355cefa1aa7a84f4a956/1670107786809-HGEY2PPUVA2DFQJ2ZDIZ/image-asset.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.img2{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    position: absolute;
+    top: 17%;
+    left: -10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* section-4 */
+
+.sec4{
+    display: flex ;
+    flex-direction: column;
+   align-items: center;
+    background-color: #161616;
+    margin-top: 1em;
+    color: white;
+    padding: 2em;
+
+}
+
+
+.span2{
+    background-color: #270b07;
+    padding: 0.1em;
+    border-radius: 5px;
+}
+
+.para3{
+    text-align: center;
+     margin: 1em 1em;
+}
+
+.img-d{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.simg{
+    height: 350px;
+    width:220px ;
+    background-image: url(https://i.pinimg.com/564x/52/9c/5f/529c5f86e0493a6e159c79bbe5e81db5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 1em;
+    padding-top: 10em;
+    transition: 1s ease;
+}
+
+.right{
+    background-color: #000000;
+    height: 25px;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 0.3em;
+}
+
+.simg:hover{
+    border: 3px solid #fff7f6;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.806) 22%, rgba(235, 112, 11, 0.322) 100%),
+    url(https://i.pinimg.com/564x/52/9c/5f/529c5f86e0493a6e159c79bbe5e81db5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     transform: scale(1.1);
+}
+
+.inside-d{
+    opacity: 0;
+}
+
+.simg:hover .inside-d{
+    opacity: 1;
+}
+
+.simg2{ 
+
+    background-image: url(https://jamesandcatrin.com/wp-content/uploads/2024/02/UTF-8black20living20room20ideas202.webp);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+.simg2:hover{
+   
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.806) 22%, rgba(235, 112, 11, 0.322) 100%),
+    url(https://jamesandcatrin.com/wp-content/uploads/2024/02/UTF-8black20living20room20ideas202.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.simg3{
+   
+    background-image: url(https://i.pinimg.com/736x/7f/8a/20/7f8a2076845aa9096f45262555c1fe38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.simg3:hover{
+   
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.806) 22%, rgba(235, 112, 11, 0.322) 100%),
+    url(https://i.pinimg.com/736x/7f/8a/20/7f8a2076845aa9096f45262555c1fe38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.simg4{ 
+
+    background-image: url(https://cdn.mos.cms.futurecdn.net/4eEjP6G7jHxJ2UQ8hooi8Z-1200-80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.simg4:hover{
+   
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.806) 22%, rgba(235, 112, 11, 0.322) 100%),
+    url(https://cdn.mos.cms.futurecdn.net/4eEjP6G7jHxJ2UQ8hooi8Z-1200-80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* sec-5 */
+
+.sec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    padding: 2em;
+    background-color: #161616;
+    color: white;
+}
+
+.sec-5img{
+    height: 300px;
+    max-width:500px ;
+    border-radius: 5px;
+}
+
+/* sec6 */
+
+.sec6{
+    padding: 2em;
+    color: white;
+    margin-top: 1em;
+    background-color: #161616;
+}
+
+
+
+.headsec6{
+    text-align: center;
+}
+
+.card-m{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+.inner-card{
+   
+    background-color: #0e0e0e !important;
+    color: white !important;
+    border: 1px solid #e26d06;
+    box-shadow: rgba(229, 229, 248, 0.425) 0px 2px 5px -1px, rgba(215, 201, 201, 0.3) 0px 1px 3px -1px;
+}
+
+.star{
+    color: rgb(255, 230, 0);
+}
+
+.card-topimg{
+    height: 260px;
+}
+
+/* section-7 */
+
+.sec7{
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    flex-wrap: wrap;
+    padding: 2em;
+    background-color: #161616;
+    margin-top: 1em;
+    color: white;
+}
+
+.d-sec1{
+    min-height: 270px;
+    max-width: 220px;
+    padding:1em;
+    box-shadow: rgba(229, 229, 248, 0.425) 0px 2px 5px -1px, rgba(215, 201, 201, 0.3) 0px 1px 3px -1px;
+}
+
+.d-sec2{
+    padding-top: 2em;
+}
+
+.icon-span{
+   
+    border-radius: 50%;
+    background-color: #270b07;
+    padding: 0.6em;
+    cursor: pointer;
+}
+
+.icon-span:hover{
+      background-color: #270b0781;
+      border: 1px solid black;
+}
+
+.icon-span:hover .up-r{
+    color: #e26d06;
+}
+
+.icon-sp2{
+     background-color: #270b07;
+   padding: 1em;
+   padding-top: 1.8em;
+   padding-bottom: 1.2em;
+   border-radius: 50%;
+   cursor: pointer;
+
+}
+
+.home{
+  font-size: 2em;
+}
+
+
+.icon-sp2:hover{
+    background-color: #270b0781;
+    border: 1px solid black;
+}
+
+.icon-sp2:hover .home{
+    color: #e26d06;
+}
+
+/* sec-8 */
+
+.sec8{
+    width: 100%;
+    margin-top: 1em;
+    background-color: #0e0e0e;
+    padding: 2em;
+    color: white;
+
+}
+
+.para-d1{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* sec-9 */
+
+.sec-9{
+    width: 100%;
+    background-color: #0e0e0e;
+    padding: 2em;
+    margin-top: 1em; 
+    padding-bottom: 3.5em;
+   
+}
+
+.h-1{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1.5em; 
+    color: white;
+}
+.sec-9d1{
+   
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.theme-c1{
+    width: 200px;
+    height: 250px;
+    background-color: #ffffff;
+    padding: 0.5em;
+    box-shadow: rgba(229, 229, 248, 0.425) 0px 2px 5px -1px, rgba(215, 201, 201, 0.3) 0px 1px 3px -1px;
+}
+
+.the-inner{
+    width: 100%;
+    height: 86%;
+    background-color: #0e0e0e;
+
+}
+
+.the-inner2{
+    background-color: #270b07;
+}
+
+.the-inner3{
+    background-color: #161616;
+}
+
+.the-inner4{
+    background-color: #e26d06;
+}
+
+/* sec-10 */
+
+.sec-10{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(https://fancyhouse-design.com/wp-content/uploads/2023/12/A-dark-living-room-offers-a-tactile-and-aesthetic-appeal-that-captures-the-essence-of-design-harmony.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1em;
+   position: relative;
+    
+   
+}
+
+.form-c{
+    width: 470px;
+    height: 100%;
+    padding: 2em;
+    background-color: #191919da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    position: absolute;
+    right: 0;
+
+}
+
+.input1{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #e26d06;
+    outline: none;
+    background-color: #0e0e0e00; 
+     color: white;
+}
+
+.foot{
+    width: 100%;
+    padding: 2em;
+    margin-top: 1em;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0 2em;
+    color: white;
+}
+
+.span02{
+    border-bottom: 4px solid #270b07;
+    padding-bottom: 0.2em;
+   
+}
+
+i{
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.foot2{
+    padding: 0.8em;
+    margin-top: 1em;
+     width: 100%;
+    background-color: #161616;
+    color: #e26d06;
+    text-align: center;
+}
+
+/* media queries */
+
+@media (max-width:970px){
+
+
+    .img1{
+       width: 350px;
+    }
+
+    .sec-3{
+        display: block;
+    }
+
+    .sec3-d1{
+        width: 98%;
+        margin-bottom:2em ;
+    }
+
+    .bg-img{
+        width: 100%;
+    }
+
+    .img2{
+        position: absolute;
+        top: -10%;
+        left: 7%;
+        width: 260px;
+        height: 300px;
+    }
+}
+
+@media (max-width:890px){
+
+    .sec2-d{
+        display: block;
+    }
+
+    .img1{
+        width: 450px;
+    }
+
+    .para-d1{
+        width: 80%;
+    }
+}
+
+@media (max-width:580px){
+    .sec-5img{
+        min-width: 220px;
+    }
+}
+
+
+
+@media (max-width:560px){
+
+    .img1{
+        width: 350px;
+     
+    }
+
+    .form-c{
+        width: 100%;
+      
+    }
+}
+
+
+@media (max-width:430px){
+
+    .img1{
+        max-width: 250px;
+        margin-left: 2em;
+    }
+
+    .sec-5img{
+        height: 250px;
+    }
+
+    .para-d1{
+        width: 100%;
+    }
+
+    .sec-10{
+        padding: 0;
+        height: 700px; 
+        position: relative;
+    
+      
+    }
+  .form-c{
+       
+        max-width: 390px;
+        height: 400px;
+        padding: 1em;
+        padding-top: 2em;
+        position: absolute;
+        bottom: 0;
+    }
+
+   ul{
+    margin-left: -1em;
+   }
+   
+}
+
+
+@media (max-width:340px){
+    .img1{
+        margin-left: 0em;
+    }
+
+   
+}
